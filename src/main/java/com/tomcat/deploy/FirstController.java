@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api")
 public class FirstController {
-	String n[]= {"James","Sharan","Hari","Victor"};
+	String n[]= {"James","Sharan","Hari","Victor","Piu"};
   @GetMapping("/greet")
   public String greet() {
-	  return "Hi!!! Spring boot is running with Jenkins";
+	  return "Hi!!! Spring boot is running with Jenkins by Victor";
   }
   
   @GetMapping("/greet2")
